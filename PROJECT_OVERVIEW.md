@@ -63,7 +63,7 @@ Edit these 3 files with your actual team names:
 Update in `index.html` and `assignment.html`:
 - Event date (currently: December 20th, 6 PM)
 - Gift budget (currently: $25-30)
-- Year in navigation (currently: 2024)
+- Year in navigation (currently: 2025)
 
 ### Step 4: Deploy
 
