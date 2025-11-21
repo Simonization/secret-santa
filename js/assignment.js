@@ -5,7 +5,7 @@
 
 // List of all participants (must match the names in the dropdown)
 const participants = [
-    "DJ"
+    "DJ",
     "Her Majesty The Queen Elizabeth",
     "Le Beaba",
     "Flupke",
