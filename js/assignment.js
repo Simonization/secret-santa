@@ -5,21 +5,19 @@
 
 // List of all participants (must match the names in the dropdown)
 const participants = [
-    "Emma Thompson",
-    "Michael Chen",
-    "Sarah Martinez",
-    "James Wilson",
-    "Priya Patel",
-    "David Kim",
-    "Lisa Anderson",
-    "Marcus Johnson",
-    "Rachel Foster",
-    "Alex Rodriguez",
-    "Nina Kowalski",
-    "Tom Bradley",
-    "Olivia Wright",
-    "Chris Murphy",
-    "Maya Gupta"
+    "DJ"
+    "Her Majesty The Queen ELizabeth",
+    "Le Beaba",
+    "Flupke",
+    "Tia Rosa",
+    "Louis-Felix",
+    "The Flame",
+    "Loic",
+    "Marine",
+    "Mickey",
+    "Astrid Sis Moejetmozegn",
+    "Simona",
+    "Rafie Doofie",
 ];
 
 // DOM Elements
