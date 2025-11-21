@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get Your Assignment - Secret Santa 2024</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">🎅 Secret Santa 2024</div>
+            <ul class="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="team.html">Our Team</a></li>
+                <li><a href="assignment.html" class="active">Get Assignment</a></li>
+                <li><a href="themes.html">Gift Ideas</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Assignment Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>🎁 Get Your Secret Santa Assignment</h1>
+            <p>Select your name to discover who you'll be shopping for!</p>
+        </div>
+    </section>
+
+    <!-- Assignment Section -->
+    <section class="assignment-section">
+        <div class="container">
+            <div class="assignment-card">
+                <div class="assignment-icon">🎅</div>
+                <h2>Who are you?</h2>
+                <p class="assignment-intro">Select your name from the list below to receive your Secret Santa assignment.</p>
+                
+                <!-- Assignment Form -->
+                <div class="assignment-form">
+                    <select id="nameSelect" class="name-select">
+                        <option value="">-- Select Your Name --</option>
+                        <option value="Emma Thompson">Emma Thompson</option>
+                        <option value="Michael Chen">Michael Chen</option>
+                        <option value="Sarah Martinez">Sarah Martinez</option>
+                        <option value="James Wilson">James Wilson</option>
+                        <option value="Priya Patel">Priya Patel</option>
+                        <option value="David Kim">David Kim</option>
+                        <option value="Lisa Anderson">Lisa Anderson</option>
+                        <option value="Marcus Johnson">Marcus Johnson</option>
+                        <option value="Rachel Foster">Rachel Foster</option>
+                        <option value="Alex Rodriguez">Alex Rodriguez</option>
+                        <option value="Nina Kowalski">Nina Kowalski</option>
+                        <option value="Tom Bradley">Tom Bradley</option>
+                        <option value="Olivia Wright">Olivia Wright</option>
+                        <option value="Chris Murphy">Chris Murphy</option>
+                        <option value="Maya Gupta">Maya Gupta</option>
+                    </select>
+                    
+                    <button id="getAssignmentBtn" class="btn btn-primary btn-large">
+                        🎁 Reveal My Assignment
+                    </button>
+                </div>
+
+                <!-- Result Display (hidden by default) -->
+                <div id="assignmentResult" class="assignment-result" style="display: none;">
+                    <div class="result-success">
+                        <h3>🎉 Your Secret Santa Assignment:</h3>
+                        <div class="recipient-name" id="recipientName"></div>
+                        <p class="result-message">Remember to keep it a secret! 🤫</p>
+                        <div class="result-actions">
+                            <a href="team.html" class="btn btn-secondary">View Their Profile</a>
+                            <a href="themes.html" class="btn btn-outline">Get Gift Ideas</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Info Box -->
+                <div class="info-box">
+                    <h4>📋 Important Reminders:</h4>
+                    <ul>
+                        <li>Keep your assignment SECRET until the reveal party</li>
+                        <li>Suggested budget: $25-30</li>
+                        <li>Gift exchange date: December 20th, 6 PM</li>
+                        <li>Check the Gift Ideas page for inspiration</li>
+                    </ul>
+                </div>
+
+                <!-- Admin Reset -->
+                <div class="admin-section">
+                    <button id="resetBtn" class="btn-link">🔄 Admin: Reset All Assignments</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Secret Santa Gift Exchange. Spread the holiday cheer! 🎄</p>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="js/assignment.js"></script>
+</body>
+</html>
